@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+body{
+  background-image: url('1\ \(3\).jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+  .login{
+    
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+    
+  }
+  .login h3{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+  }
+
+  .login p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: white;
+
+  }
+
+  .login input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .login button{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 10px;
+    border: 0;
+
+  }
